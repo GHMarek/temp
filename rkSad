@@ -1,0 +1,18 @@
+https://www.renaissancekingdoms.com/min/?g=jsTirArc&debug&v=1669907430
+
+zmieniam funkcję
+
+
+/* 1   */ (function(){
+/* 2   */ 
+/* 3   */ Fleche = function(x,y,vent,gravite,vy)
+/* 4   */ {
+/* 5   */ 	this.posX = x;//+16;
+/* 6   */ 	this.posY = y;//+16;
+/* 7   */ 	this.image = new Image();
+/* 8   */ 	this.image.src = "https://lesroyaumes.cdn.oxv.fr/images/tirArc/Rendu_Fleche.png"; 
+/* 9   */ 
+/* 10  */ 	// Acceleration
+/* 11  */ 	this.ax = 0; // Vent
+/* 12  */ 	this.ay = 0; // Gravité
+/* 13  */ 	this.vy = vy;
